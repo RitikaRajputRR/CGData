@@ -1,0 +1,35 @@
+[
+  {
+    "filename": "03_Raipur.png",
+    "wikimediaTitle": "File:Raipur in Chhattisgarh (India).svg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Raipur_in_Chhattisgarh_(India).svg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Raipur_in_Chhattisgarh_%28India%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 4.0",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Milenioscuro\" title=\"User:Milenioscuro\">Milenioscuro</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:Raipur_in_Chhattisgarh_(India).svg"
+    }
+  },
+  {
+    "filename": "04_Raipur.jpg",
+    "wikimediaTitle": "File:Historic heritage sites of Chhattisgarh with GPS coordinates.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Historic_heritage_sites_of_Chhattisgarh_with_GPS_coordinates.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Historic_heritage_sites_of_Chhattisgarh_with_GPS_coordinates.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 4.0",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Ms_Sarah_Welch\" title=\"User:Ms Sarah Welch\">Ms Sarah Welch</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:Historic_heritage_sites_of_Chhattisgarh_with_GPS_coordinates.jpg"
+    }
+  },
+  {
+    "filename": "05_Raipur.jpg",
+    "wikimediaTitle": "File:Ram Van Gaman.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Ram_Van_Gaman.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Ram_Van_Gaman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 4.0",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:MrCG36&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:MrCG36 (page does not exist)\">MrCG36</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:Ram_Van_Gaman.jpg"
+    }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "filename": "01_Sakti.jpg",
+    "wikimediaTitle": "File:Catalogue of Bengali printed books in the library of the British Museum (1886).pdf",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Catalogue_of_Bengali_printed_books_in_the_library_of_the_British_Museum_(1886).pdf",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Catalogue_of_Bengali_printed_books_in_the_library_of_the_British_Museum_%281886%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "Public domain",
+      "artist": "British Museum. Dept. of Oriental Printed Books and Manuscripts; Blumhardt, James Fuller, d. 1922",
+      "source": "https://commons.wikimedia.org/wiki/File:Catalogue_of_Bengali_printed_books_in_the_library_of_the_British_Museum_(1886).pdf"
+    }
+  },
+  {
+    "filename": "04_Sakti.jpg",
+    "wikimediaTitle": "File:Saraswati Shishu Mandir, Sakti.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Saraswati_Shishu_Mandir,_Sakti.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Saraswati_Shishu_Mandir%2C_Sakti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 4.0",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Deveshjaiswal&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Deveshjaiswal (page does not exist)\">Devesh jaiswal</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:Saraswati_Shishu_Mandir,_Sakti.jpg"
+    }
+  },
+  {
+    "filename": "05_Sakti.jpg",
+    "wikimediaTitle": "File:Maa Beri Wali Mandir.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Maa_Beri_Wali_Mandir.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Maa_Beri_Wali_Mandir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 4.0",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Deveshjaiswal&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Deveshjaiswal (page does not exist)\">Devesh Jaiswal</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:Maa_Beri_Wali_Mandir.jpg"
+    }
+  }
+]

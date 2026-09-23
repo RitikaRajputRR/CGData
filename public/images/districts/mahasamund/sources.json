@@ -1,0 +1,46 @@
+[
+  {
+    "filename": "02_Mahasamund.jpg",
+    "wikimediaTitle": "File:Natural Flora.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Natural_Flora.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Natural_Flora.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 4.0",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:007mahi&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:007mahi (page does not exist)\">007mahi</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:Natural_Flora.jpg"
+    }
+  },
+  {
+    "filename": "03_Mahasamund.png",
+    "wikimediaTitle": "File:Mahasamund in Chhattisgarh (India).svg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Mahasamund_in_Chhattisgarh_(India).svg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Mahasamund_in_Chhattisgarh_%28India%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 4.0",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Milenioscuro\" title=\"User:Milenioscuro\">Milenioscuro</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:Mahasamund_in_Chhattisgarh_(India).svg"
+    }
+  },
+  {
+    "filename": "04_Mahasamund.jpg",
+    "wikimediaTitle": "File:River Mahanadi view from 8th century temple, Sirpur monuments Chhattisgarh.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:River_Mahanadi_view_from_8th_century_temple,_Sirpur_monuments_Chhattisgarh.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/River_Mahanadi_view_from_8th_century_temple%2C_Sirpur_monuments_Chhattisgarh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 4.0",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Ms_Sarah_Welch\" title=\"User:Ms Sarah Welch\">Ms Sarah Welch</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:River_Mahanadi_view_from_8th_century_temple,_Sirpur_monuments_Chhattisgarh.jpg"
+    }
+  },
+  {
+    "filename": "05_Mahasamund.jpg",
+    "wikimediaTitle": "File:0012623 Jagannadh temple, Khallari Chhattisgarh 008.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:0012623_Jagannadh_temple,_Khallari_Chhattisgarh_008.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/0012623_Jagannadh_temple%2C_Khallari_Chhattisgarh_008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC0",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Ms_Sarah_Welch\" title=\"User:Ms Sarah Welch\">Ms Sarah Welch</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:0012623_Jagannadh_temple,_Khallari_Chhattisgarh_008.jpg"
+    }
+  }
+]

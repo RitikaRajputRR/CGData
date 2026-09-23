@@ -1,0 +1,807 @@
+/* =========================================================
+   CG DATA — ABOUT PAGE
+   Chhattisgarh inspired background
+   Theme: Dhaan • Gehu • Chana • Fruits • Festivals • Culture
+========================================================= */
+
+.about-page {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+
+  background:
+    /* soft grain texture */
+    radial-gradient(
+      circle at 10% 12%,
+      rgba(168, 143, 74, 0.13) 0,
+      rgba(168, 143, 74, 0.13) 2px,
+      transparent 3px
+    ),
+
+    radial-gradient(
+      circle at 88% 18%,
+      rgba(116, 135, 76, 0.11) 0,
+      rgba(116, 135, 76, 0.11) 2px,
+      transparent 3px
+    ),
+
+    /* warm sunlight */
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(229, 193, 108, 0.20),
+      transparent 38%
+    ),
+
+    /* green agricultural field */
+    radial-gradient(
+      circle at 0% 75%,
+      rgba(102, 125, 66, 0.10),
+      transparent 32%
+    ),
+
+    /* warm earth */
+    radial-gradient(
+      circle at 100% 82%,
+      rgba(174, 123, 66, 0.09),
+      transparent 30%
+    ),
+
+    #f7f3e9;
+
+  color: #28351f;
+  padding-bottom: 60px;
+}
+
+/* =========================================================
+   DECORATIVE CG BACKGROUND
+========================================================= */
+
+.about-page::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  pointer-events: none;
+
+  opacity: 0.55;
+
+  background-image:
+    /* tiny grain dots */
+    radial-gradient(
+      circle,
+      rgba(92, 103, 59, 0.13) 1px,
+      transparent 1.5px
+    );
+
+  background-size: 26px 26px;
+
+  mask-image: linear-gradient(
+    to bottom,
+    black,
+    transparent 80%
+  );
+
+  z-index: 0;
+}
+
+/* =========================================================
+   TOP AGRICULTURE DECORATION
+   Dhaan / Gehu inspired curved stems
+========================================================= */
+
+.about-page::after {
+  content: "🌾   🌾      🌿   🌾      🌾   🌿";
+
+  position: absolute;
+
+  top: 18px;
+  left: 0;
+
+  width: 100%;
+
+  text-align: center;
+
+  font-size: 30px;
+  letter-spacing: 20px;
+
+  opacity: 0.13;
+
+  pointer-events: none;
+
+  filter: grayscale(20%);
+
+  z-index: 0;
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.about-hero {
+  position: relative;
+  z-index: 2;
+
+  max-width: 1100px;
+
+  margin: 0 auto;
+
+  padding: 90px 30px 70px;
+
+  text-align: center;
+}
+
+/* small heading */
+
+.about-eyebrow {
+  display: inline-block;
+
+  margin-bottom: 14px;
+
+  padding: 7px 15px;
+
+  border: 1px solid rgba(111, 132, 75, 0.25);
+
+  border-radius: 999px;
+
+  background: rgba(239, 242, 226, 0.75);
+
+  font-size: 12px;
+  font-weight: 800;
+
+  letter-spacing: 2px;
+
+  color: #71834f;
+
+  backdrop-filter: blur(6px);
+}
+
+/* main heading */
+
+.about-hero h1 {
+  margin: 0;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(42px, 6vw, 72px);
+
+  line-height: 1.05;
+
+  font-weight: 800;
+
+  color: #26351d;
+
+  letter-spacing: -1.5px;
+}
+
+/* decorative line */
+
+.about-hero h1::after {
+  content: "✦  🌾  ✦";
+
+  display: block;
+
+  margin-top: 18px;
+
+  font-family: sans-serif;
+
+  font-size: 17px;
+
+  letter-spacing: 8px;
+
+  color: #a18a4d;
+
+  opacity: 0.65;
+}
+
+.about-hero p {
+  max-width: 760px;
+
+  margin: 25px auto 0;
+
+  font-size: 18px;
+
+  line-height: 1.8;
+
+  color: #68705f;
+}
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.about-content {
+  position: relative;
+  z-index: 2;
+
+  max-width: 1150px;
+
+  margin: 0 auto;
+
+  padding: 20px 30px 70px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 24px;
+}
+
+/* =========================================================
+   CARD
+========================================================= */
+
+.about-card {
+  position: relative;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 253, 247, 0.97),
+      rgba(248, 244, 231, 0.94)
+    );
+
+  border: 1px solid #e5dfcf;
+
+  border-radius: 24px;
+
+  padding: 34px;
+
+  min-height: 330px;
+
+  box-shadow:
+    0 15px 40px
+      rgba(55, 67, 35, 0.08);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+/* subtle agricultural decoration */
+
+.about-card::after {
+  content: "🌾";
+
+  position: absolute;
+
+  right: 18px;
+  bottom: 10px;
+
+  font-size: 70px;
+
+  opacity: 0.055;
+
+  transform: rotate(-15deg);
+
+  pointer-events: none;
+}
+
+.about-card:hover {
+  transform: translateY(-7px);
+
+  box-shadow:
+    0 22px 50px
+      rgba(55, 67, 35, 0.14);
+
+  border-color: #cbd4b5;
+}
+
+/* =========================================================
+   CARD NUMBER
+========================================================= */
+
+.about-card-number {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 45px;
+  height: 45px;
+
+  border-radius: 50%;
+
+  background:
+    linear-gradient(
+      135deg,
+      #e5ead7,
+      #f0e6c8
+    );
+
+  border: 1px solid #d7ddc4;
+
+  color: #506336;
+
+  font-size: 13px;
+
+  font-weight: 800;
+}
+
+/* =========================================================
+   CARD HEADING
+========================================================= */
+
+.about-card h2 {
+  margin: 25px 0 15px;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 24px;
+
+  color: #2d3d22;
+}
+
+.about-card p {
+  margin: 0;
+
+  color: #6d7465;
+
+  font-size: 15px;
+
+  line-height: 1.8;
+}
+
+/* =========================================================
+   LIST
+========================================================= */
+
+.about-card ul {
+  margin: 20px 0 0;
+
+  padding: 0;
+
+  list-style: none;
+}
+
+.about-card li {
+  position: relative;
+
+  padding: 10px 0 10px 4px;
+
+  color: #626b59;
+
+  font-size: 15px;
+
+  border-bottom:
+    1px solid #eee9dc;
+
+  transition:
+    padding-left 0.2s ease,
+    color 0.2s ease;
+}
+
+.about-card li:hover {
+  padding-left: 9px;
+
+  color: #40532d;
+}
+
+.about-card li:last-child {
+  border-bottom: none;
+}
+
+/* =========================================================
+   SOURCE NOTE
+========================================================= */
+
+.about-source-note {
+  margin-top: 18px !important;
+
+  padding: 13px 15px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f1f4e9,
+      #f5efdc
+    );
+
+  border-left:
+    4px solid #788b55;
+
+  border-radius: 8px;
+
+  font-size: 14px !important;
+}
+
+/* =========================================================
+   TECHNOLOGY
+========================================================= */
+
+.about-tech {
+  position: relative;
+  z-index: 2;
+
+  max-width: 1100px;
+
+  margin: 0 auto;
+
+  padding: 40px 30px 80px;
+
+  text-align: center;
+}
+
+.about-tech h2 {
+  margin: 5px 0 35px;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 38px;
+
+  color: #2c3b21;
+}
+
+/* =========================================================
+   TECHNOLOGY GRID
+========================================================= */
+
+.tech-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 18px;
+}
+
+.tech-grid div {
+  position: relative;
+
+  padding: 22px 18px;
+
+  background:
+    rgba(255, 253, 247, 0.88);
+
+  border:
+    1px solid #e5dfcf;
+
+  border-radius: 16px;
+
+  color: #455436;
+
+  font-size: 16px;
+
+  font-weight: 700;
+
+  box-shadow:
+    0 8px 25px
+      rgba(55, 67, 35, 0.06);
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.tech-grid div:hover {
+  transform: translateY(-4px);
+
+  background: #eef2e3;
+
+  box-shadow:
+    0 14px 30px
+      rgba(55, 67, 35, 0.10);
+}
+
+/* =========================================================
+   FOOTER MESSAGE
+========================================================= */
+
+.about-footer {
+  position: relative;
+  z-index: 2;
+
+  max-width: 1000px;
+
+  margin: 0 auto;
+
+  padding: 55px 30px;
+
+  text-align: center;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      135deg,
+      #34452a,
+      #405536
+    );
+
+  border-radius: 28px;
+
+  box-shadow:
+    0 20px 50px
+      rgba(43, 57, 32, 0.18);
+}
+
+/* CG agriculture decoration */
+
+.about-footer::before {
+  content:
+    "🌾     🌿     🌾     🍃     🌾";
+
+  position: absolute;
+
+  top: 15px;
+  left: 0;
+
+  width: 100%;
+
+  font-size: 25px;
+
+  letter-spacing: 12px;
+
+  opacity: 0.14;
+
+  pointer-events: none;
+}
+
+.about-footer::after {
+  content:
+    "🍚   🌾   🥭   🌿   🌾";
+
+  position: absolute;
+
+  bottom: 12px;
+  left: 0;
+
+  width: 100%;
+
+  font-size: 23px;
+
+  letter-spacing: 14px;
+
+  opacity: 0.12;
+
+  pointer-events: none;
+}
+
+.about-footer h2 {
+  position: relative;
+  z-index: 2;
+
+  margin: 0;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  color: #f8f3e5;
+
+  font-size: 32px;
+}
+
+.about-footer p {
+  position: relative;
+  z-index: 2;
+
+  margin: 15px auto 0;
+
+  max-width: 650px;
+
+  color: #d9dfcf;
+
+  line-height: 1.7;
+}
+
+/* =========================================================
+   DESKTOP CG DECORATIVE CORNERS
+========================================================= */
+
+@media (min-width: 901px) {
+
+  .about-content::before {
+    content: "🌾";
+
+    position: absolute;
+
+    left: -35px;
+    top: 60px;
+
+    font-size: 110px;
+
+    opacity: 0.08;
+
+    transform: rotate(-18deg);
+
+    pointer-events: none;
+  }
+
+  .about-content::after {
+    content: "🌿";
+
+    position: absolute;
+
+    right: -30px;
+    bottom: 30px;
+
+    font-size: 110px;
+
+    opacity: 0.07;
+
+    transform: rotate(15deg);
+
+    pointer-events: none;
+  }
+
+  .about-tech::before {
+    content: "🌾";
+
+    position: absolute;
+
+    left: -15px;
+    top: 35px;
+
+    font-size: 90px;
+
+    opacity: 0.07;
+
+    transform: rotate(-20deg);
+
+    pointer-events: none;
+  }
+
+  .about-tech::after {
+    content: "🍃";
+
+    position: absolute;
+
+    right: -10px;
+    bottom: 40px;
+
+    font-size: 80px;
+
+    opacity: 0.07;
+
+    pointer-events: none;
+  }
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+
+  .about-card {
+    min-height: auto;
+  }
+
+  .tech-grid {
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .about-page::after {
+    font-size: 22px;
+
+    letter-spacing: 7px;
+
+    opacity: 0.10;
+  }
+
+  .about-hero {
+    padding:
+      60px 20px 45px;
+  }
+
+  .about-hero h1 {
+    font-size: 42px;
+  }
+
+  .about-hero h1::after {
+    font-size: 14px;
+
+    letter-spacing: 5px;
+  }
+
+  .about-hero p {
+    font-size: 16px;
+
+    line-height: 1.7;
+  }
+
+  .about-content {
+    padding:
+      15px 20px 50px;
+  }
+
+  .about-card {
+    padding: 26px;
+
+    border-radius: 20px;
+  }
+
+  .about-card h2 {
+    font-size: 22px;
+  }
+
+  .about-tech {
+    padding:
+      30px 20px 60px;
+  }
+
+  .about-tech h2 {
+    font-size: 32px;
+  }
+
+  .tech-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-footer {
+    margin: 0 20px;
+
+    padding:
+      40px 22px;
+
+    border-radius: 22px;
+  }
+
+  .about-footer h2 {
+    font-size: 26px;
+  }
+
+  .about-footer::before,
+  .about-footer::after {
+    font-size: 18px;
+
+    letter-spacing: 6px;
+  }
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 420px) {
+
+  .about-hero {
+    padding-top: 50px;
+  }
+
+  .about-hero h1 {
+    font-size: 36px;
+  }
+
+  .about-card {
+    padding: 22px;
+  }
+
+  .about-card-number {
+    width: 40px;
+    height: 40px;
+  }
+
+  .about-footer {
+    margin: 0 15px;
+  }
+}

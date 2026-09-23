@@ -1,0 +1,336 @@
+.real-map-container {
+  width: 100%;
+  height: 100%;
+  min-height: 830px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  overflow: hidden;
+
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.chhattisgarh-svg {
+  width: 100%;
+  height: 100%;
+
+  max-width: 680px;
+  max-height: 720px;
+
+  overflow: visible;
+}
+
+
+/* =========================
+   DISTRICT SHAPES
+========================= */
+
+.cg-district {
+  fill: var(--district-color);
+
+  stroke: #16251c;
+  stroke-width: 1.6;
+
+  stroke-linejoin: round;
+  stroke-linecap: round;
+
+  cursor: pointer;
+
+  transition:
+    fill 0.2s ease,
+    filter 0.2s ease,
+    stroke-width 0.2s ease,
+    opacity 0.2s ease;
+}
+
+
+/* Hover */
+
+.cg-district:hover,
+.cg-district.hovered {
+  fill: #e0ad31;
+
+  stroke: #123622;
+  stroke-width: 3;
+
+  filter:
+    drop-shadow(
+      0 4px 5px rgba(25, 65, 45, 0.3)
+    );
+}
+
+
+/* Selected district */
+
+.cg-district.selected {
+  fill: #174a32;
+
+  stroke: #c79b3c;
+  stroke-width: 3.5;
+
+  filter:
+    drop-shadow(
+      0 5px 7px rgba(20, 60, 40, 0.35)
+    );
+}
+
+
+/* Keyboard focus */
+
+.cg-district:focus {
+  outline: none;
+
+  stroke: #b88b2e;
+  stroke-width: 4;
+}
+
+
+/* =========================
+   DISTRICT LABELS
+========================= */
+
+.district-label {
+  fill: #16251c;
+
+  font-family:
+    Arial,
+    "Segoe UI",
+    sans-serif;
+
+  font-size: 8px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.1px;
+
+  paint-order: stroke;
+
+  stroke: rgba(255, 255, 255, 0.82);
+
+  stroke-width: 2.5px;
+
+  user-select: none;
+
+  pointer-events: none;
+}
+
+
+/* Selected district label */
+
+.selected-label {
+  fill: #ffffff;
+
+  stroke: #174a32;
+
+  stroke-width: 2px;
+}
+
+
+/* =========================
+   TOOLTIP
+========================= */
+
+.map-tooltip {
+  position: absolute;
+
+  top: 18px;
+  right: 18px;
+
+  padding: 8px 15px;
+
+  border-radius: 30px;
+
+  background: #174a32;
+
+  color: #ffffff;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  box-shadow:
+    0 8px 20px rgba(20, 60, 40, 0.18);
+
+  pointer-events: none;
+
+  z-index: 10;
+}
+
+.map-tooltip span {
+  display: block;
+}
+
+.map-tooltip small {
+  display: block;
+
+  margin-top: 2px;
+
+  font-size: 9px;
+
+  font-weight: 500;
+
+  opacity: 0.8;
+}
+
+
+/* =========================
+   LOADING
+========================= */
+
+.map-loading {
+  min-height: 560px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  gap: 12px;
+
+  color: #65756b;
+
+  font-size: 14px;
+}
+
+.map-spinner {
+  width: 38px;
+  height: 38px;
+
+  border: 3px solid #dfe6dc;
+
+  border-top-color: #174a32;
+
+  border-radius: 50%;
+
+  animation: mapSpin 0.8s linear infinite;
+}
+
+@keyframes mapSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* =========================
+   ERROR
+========================= */
+
+.map-error {
+  min-height: 560px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  text-align: center;
+
+  padding: 30px;
+
+  box-sizing: border-box;
+}
+
+.map-error-icon {
+  font-size: 42px;
+
+  margin-bottom: 8px;
+}
+
+.map-error h3 {
+  margin: 0;
+
+  color: #173f2b;
+
+  font-size: 20px;
+}
+
+.map-error p {
+  color: #758178;
+
+  font-size: 13px;
+
+  margin: 8px 0;
+}
+
+.map-error small {
+  color: #9aa39d;
+
+  font-size: 11px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+  .real-map-container {
+    min-height: 430px;
+
+    padding: 5px;
+  }
+
+  .chhattisgarh-svg {
+    max-width: 100%;
+    max-height: 520px;
+  }
+
+  .district-label {
+    font-size: 6.5px;
+
+    stroke-width: 2px;
+  }
+
+  .cg-district {
+    stroke-width: 1.2;
+  }
+
+  .cg-district.selected {
+    stroke-width: 2.5;
+  }
+
+  .map-tooltip {
+    top: 10px;
+    right: 10px;
+
+    padding: 7px 11px;
+
+    font-size: 10px;
+  }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 450px) {
+
+  .real-map-container {
+    min-height: 380px;
+  }
+
+  .district-label {
+    font-size: 5.5px;
+
+    stroke-width: 1.6px;
+  }
+
+  .map-tooltip {
+    font-size: 9px;
+  }
+
+  .map-tooltip small {
+    font-size: 8px;
+  }
+}

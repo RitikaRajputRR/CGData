@@ -1,0 +1,57 @@
+[
+  {
+    "filename": "01_Mungeli.jpg",
+    "wikimediaTitle": "File:Christian Hospital Mungeli.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Christian_Hospital_Mungeli.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Christian_Hospital_Mungeli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY 2.5 in",
+      "artist": "Pamela Callon",
+      "source": "https://commons.wikimedia.org/wiki/File:Christian_Hospital_Mungeli.jpg"
+    }
+  },
+  {
+    "filename": "02_Mungeli.jpg",
+    "wikimediaTitle": "File:Parthenium infestation in Achanakmar Wildlife Sanctuary.JPG",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Parthenium_infestation_in_Achanakmar_Wildlife_Sanctuary.JPG",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Parthenium_infestation_in_Achanakmar_Wildlife_Sanctuary.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 3.0",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pankaj_Oudhia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pankaj Oudhia (page does not exist)\">Pankaj Oudhia</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:Parthenium_infestation_in_Achanakmar_Wildlife_Sanctuary.JPG"
+    }
+  },
+  {
+    "filename": "03_Mungeli.png",
+    "wikimediaTitle": "File:Mungeli in Chhattisgarh (India).svg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Mungeli_in_Chhattisgarh_(India).svg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Mungeli_in_Chhattisgarh_%28India%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 4.0",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Milenioscuro\" title=\"User:Milenioscuro\">Milenioscuro</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:Mungeli_in_Chhattisgarh_(India).svg"
+    }
+  },
+  {
+    "filename": "04_Mungeli.jpg",
+    "wikimediaTitle": "File:Report on the epidemic of cholera of 1875, 1876 in the central provinces (IA b24914848).pdf",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Report_on_the_epidemic_of_cholera_of_1875,_1876_in_the_central_provinces_(IA_b24914848).pdf",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Report_on_the_epidemic_of_cholera_of_1875%2C_1876_in_the_central_provinces_%28IA_b24914848%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "Public domain",
+      "artist": "<div class=\"fn value\">\n<dl><dd>Townsend, Stephen Chapman</dd>\n<dd>London School of Hygiene and Tropical Medicine</dd></dl></div>",
+      "source": "https://commons.wikimedia.org/wiki/File:Report_on_the_epidemic_of_cholera_of_1875,_1876_in_the_central_provinces_(IA_b24914848).pdf"
+    }
+  },
+  {
+    "filename": "05_Mungeli.jpg",
+    "wikimediaTitle": "File:Census of India, 1911 .. (IA censusofindiav10pt2indi).pdf",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Census_of_India,_1911_.._(IA_censusofindiav10pt2indi).pdf",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Census_of_India%2C_1911_.._%28IA_censusofindiav10pt2indi%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "Public domain",
+      "artist": "<div class=\"fn value\">\nIndia. Census Commissioner</div>",
+      "source": "https://commons.wikimedia.org/wiki/File:Census_of_India,_1911_.._(IA_censusofindiav10pt2indi).pdf"
+    }
+  }
+]

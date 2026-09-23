@@ -1,0 +1,35 @@
+[
+  {
+    "filename": "01_Surajpur.jpg",
+    "wikimediaTitle": "File:MaaKudargarhiDevi.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:MaaKudargarhiDevi.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/MaaKudargarhiDevi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 3.0",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rakesh_spur&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rakesh spur (page does not exist)\">Rakesh spur</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:MaaKudargarhiDevi.jpg"
+    }
+  },
+  {
+    "filename": "02_Surajpur.png",
+    "wikimediaTitle": "File:Surajpur in Chhattisgarh (India).svg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Surajpur_in_Chhattisgarh_(India).svg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Surajpur_in_Chhattisgarh_%28India%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 4.0",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Milenioscuro\" title=\"User:Milenioscuro\">Milenioscuro</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:Surajpur_in_Chhattisgarh_(India).svg"
+    }
+  },
+  {
+    "filename": "03_Surajpur.jpg",
+    "wikimediaTitle": "File:District census handbook, Punjab (IA districtcensusha17indi).pdf",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:District_census_handbook,_Punjab_(IA_districtcensusha17indi).pdf",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/District_census_handbook%2C_Punjab_%28IA_districtcensusha17indi%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "Public domain",
+      "artist": "<div class=\"fn value\">\n<dl><dd>India. Superintendent of Census Operations, Punjab</dd>\n<dd>Anand, R. L., 1907-</dd></dl></div>",
+      "source": "https://commons.wikimedia.org/wiki/File:District_census_handbook,_Punjab_(IA_districtcensusha17indi).pdf"
+    }
+  }
+]

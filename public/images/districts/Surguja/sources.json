@@ -1,0 +1,35 @@
+[
+  {
+    "filename": "03_Surguja.jpg",
+    "wikimediaTitle": "File:Wall Painting, Sarguja, Chhattisgarh.JPG",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Wall_Painting,_Sarguja,_Chhattisgarh.JPG",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Wall_Painting%2C_Sarguja%2C_Chhattisgarh.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 3.0",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Psubhashish\" title=\"User:Psubhashish\">user:psubhashish</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:Wall_Painting,_Sarguja,_Chhattisgarh.JPG"
+    }
+  },
+  {
+    "filename": "04_Surguja.jpg",
+    "wikimediaTitle": "File:Wall Painting, Sarguja, Chhattisgarh-2.JPG",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Wall_Painting,_Sarguja,_Chhattisgarh-2.JPG",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Wall_Painting%2C_Sarguja%2C_Chhattisgarh-2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 3.0",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Psubhashish\" title=\"User:Psubhashish\">user:psubhashish</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:Wall_Painting,_Sarguja,_Chhattisgarh-2.JPG"
+    }
+  },
+  {
+    "filename": "05_Surguja.jpg",
+    "wikimediaTitle": "File:Wall Painting, Sarguja, Chhattisgarh-1.JPG",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Wall_Painting,_Sarguja,_Chhattisgarh-1.JPG",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Wall_Painting%2C_Sarguja%2C_Chhattisgarh-1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 3.0",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Psubhashish\" title=\"User:Psubhashish\">user:psubhashish</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:Wall_Painting,_Sarguja,_Chhattisgarh-1.JPG"
+    }
+  }
+]

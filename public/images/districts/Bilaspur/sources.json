@@ -1,0 +1,35 @@
+[
+  {
+    "filename": "03_Bilaspur.png",
+    "wikimediaTitle": "File:Bilaspur in Chhattisgarh (India).svg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Bilaspur_in_Chhattisgarh_(India).svg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bilaspur_in_Chhattisgarh_%28India%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 4.0",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Milenioscuro\" title=\"User:Milenioscuro\">Milenioscuro</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:Bilaspur_in_Chhattisgarh_(India).svg"
+    }
+  },
+  {
+    "filename": "04_Bilaspur.jpg",
+    "wikimediaTitle": "File:WAP7 Bilaspur Amritsar Chhattisgarh exp 05052016.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:WAP7_Bilaspur_Amritsar_Chhattisgarh_exp_05052016.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/WAP7_Bilaspur_Amritsar_Chhattisgarh_exp_05052016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY 3.0",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Nikhilb239\" class=\"mw-redirect\" title=\"User:Nikhilb239\">Nikhilb239</a>",
+      "source": "https://commons.wikimedia.org/wiki/File:WAP7_Bilaspur_Amritsar_Chhattisgarh_exp_05052016.jpg"
+    }
+  },
+  {
+    "filename": "05_Bilaspur.png",
+    "wikimediaTitle": "File:Gaurela-Pendra-Marwahi in Chhattisgarh, India.svg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Gaurela-Pendra-Marwahi_in_Chhattisgarh,_India.svg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Gaurela-Pendra-Marwahi_in_Chhattisgarh%2C_India.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": {
+      "license": "CC BY-SA 4.0",
+      "artist": "Own work based on Milenioscuro",
+      "source": "https://commons.wikimedia.org/wiki/File:Gaurela-Pendra-Marwahi_in_Chhattisgarh,_India.svg"
+    }
+  }
+]

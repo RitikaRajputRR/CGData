@@ -1,0 +1,2053 @@
+/* =========================================================
+   CG DATA — APP.CSS
+   Premium Chhattisgarh / Paddy / Agriculture Theme
+========================================================= */
+
+:root {
+  --green-dark: #123f32;
+  --green: #1d5a45;
+  --green-light: #78945d;
+
+  --cream: #faf6e9;
+  --cream-2: #f3ecd8;
+  --cream-3: #ebe1c6;
+
+  --gold: #c7a45a;
+  --gold-light: #e4cf94;
+
+  --brown: #624b2e;
+  --text: #20372f;
+  --muted: #66756d;
+
+  --border: rgba(62, 80, 55, 0.18);
+
+  --shadow:
+    0 18px 45px rgba(52, 62, 42, 0.12);
+
+  --radius: 16px;
+}
+
+/* =========================================================
+   RESET
+========================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family:
+    Inter,
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+  background: var(--cream);
+
+  color: var(--text);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* =========================================================
+   MAIN APP
+========================================================= */
+
+.app {
+  min-height: 100vh;
+
+  background:
+    linear-gradient(
+      180deg,
+      #faf7ed 0%,
+      #f7f2df 42%,
+      #f2edd9 100%
+    );
+
+  position: relative;
+
+  overflow-x: hidden;
+}
+
+/* =========================================================
+   GLOBAL DHAN BACKGROUND
+========================================================= */
+
+.app::before {
+  content: "";
+
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 280px;
+  height: 500px;
+
+  pointer-events: none;
+
+  opacity: 0.18;
+
+  z-index: 0;
+
+  background:
+    radial-gradient(
+      ellipse 6px 2px at 35% 12%,
+      #b79a55 0 65%,
+      transparent 68%
+    ),
+    radial-gradient(
+      ellipse 6px 2px at 43% 18%,
+      #b79a55 0 65%,
+      transparent 68%
+    ),
+    radial-gradient(
+      ellipse 6px 2px at 51% 24%,
+      #b79a55 0 65%,
+      transparent 68%
+    ),
+    radial-gradient(
+      ellipse 6px 2px at 59% 30%,
+      #b79a55 0 65%,
+      transparent 68%
+    ),
+    radial-gradient(
+      ellipse 6px 2px at 67% 36%,
+      #b79a55 0 65%,
+      transparent 68%
+    ),
+    linear-gradient(
+      72deg,
+      transparent 48%,
+      rgba(92, 119, 70, 0.45) 49%,
+      rgba(92, 119, 70, 0.45) 50%,
+      transparent 51%
+    );
+}
+
+.app::after {
+  content: "";
+
+  position: fixed;
+
+  right: -30px;
+  bottom: -80px;
+
+  width: 330px;
+  height: 520px;
+
+  pointer-events: none;
+
+  opacity: 0.14;
+
+  z-index: 0;
+
+  background:
+    radial-gradient(
+      ellipse 7px 2px at 35% 18%,
+      #b79a55 0 65%,
+      transparent 68%
+    ),
+    radial-gradient(
+      ellipse 7px 2px at 45% 25%,
+      #b79a55 0 65%,
+      transparent 68%
+    ),
+    radial-gradient(
+      ellipse 7px 2px at 55% 32%,
+      #b79a55 0 65%,
+      transparent 68%
+    ),
+    radial-gradient(
+      ellipse 7px 2px at 65% 39%,
+      #b79a55 0 65%,
+      transparent 68%
+    ),
+    radial-gradient(
+      ellipse 7px 2px at 75% 46%,
+      #b79a55 0 65%,
+      transparent 68%
+    ),
+    linear-gradient(
+      108deg,
+      transparent 48%,
+      rgba(92, 119, 70, 0.45) 49%,
+      rgba(92, 119, 70, 0.45) 50%,
+      transparent 51%
+    );
+}
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.header {
+  min-height: 82px;
+
+  padding: 0 42px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 28px;
+
+  position: relative;
+
+  z-index: 20;
+
+  background:
+    rgba(250, 247, 237, 0.94);
+
+  border-bottom:
+    1px solid rgba(70, 82, 55, 0.14);
+
+  backdrop-filter: blur(14px);
+
+  box-shadow:
+    0 5px 25px rgba(62, 70, 48, 0.06);
+}
+
+/* =========================================================
+   LOGO
+========================================================= */
+
+.logo-area {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  flex-shrink: 0;
+}
+
+.logo-icon {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 33px;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      #fff8df 0%,
+      #e7d5a1 100%
+    );
+
+  border:
+    1px solid rgba(123, 98, 48, 0.2);
+}
+
+.logo-area h1 {
+  margin: 0;
+
+  color: var(--green-dark);
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 31px;
+
+  line-height: 0.95;
+
+  letter-spacing: 1px;
+}
+
+.logo-area p {
+  margin: 5px 0 0;
+
+  color: #5d685f;
+
+  font-size: 12px;
+
+  letter-spacing: 0.4px;
+}
+
+/* =========================================================
+   NAVBAR
+========================================================= */
+
+.navbar {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 4px;
+
+  flex: 1;
+}
+
+.nav-link {
+  min-height: 48px;
+
+  padding: 0 15px;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 7px;
+
+  color: #173d31;
+
+  text-decoration: none;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  position: relative;
+
+  transition:
+    color 0.25s ease,
+    background 0.25s ease;
+}
+
+.nav-link::after {
+  content: "";
+
+  position: absolute;
+
+  left: 15px;
+  right: 15px;
+
+  bottom: 0;
+
+  height: 2px;
+
+  border-radius: 5px;
+
+  background: var(--green);
+
+  transform: scaleX(0);
+
+  transition:
+    transform 0.25s ease;
+}
+
+.nav-link:hover {
+  color: var(--green);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  transform: scaleX(1);
+}
+
+.nav-link.active {
+  color: var(--green-dark);
+}
+
+.nav-icon {
+  font-size: 17px;
+
+  line-height: 1;
+}
+
+/* =========================================================
+   SEARCH
+========================================================= */
+
+.search-box {
+  width: 245px;
+
+  height: 44px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  padding: 0 14px;
+
+  border:
+    1px solid rgba(64, 82, 59, 0.25);
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 253, 246, 0.7);
+
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.search-box:focus-within {
+  border-color: var(--green);
+
+  box-shadow:
+    0 0 0 4px rgba(29, 90, 69, 0.08);
+}
+
+.search-box input {
+  width: 100%;
+
+  border: 0;
+
+  outline: 0;
+
+  background: transparent;
+
+  color: var(--text);
+
+  font-size: 14px;
+}
+
+.search-box input::placeholder {
+  color: #718078;
+}
+
+.search-box span {
+  color: var(--green-dark);
+
+  font-size: 21px;
+
+  line-height: 1;
+}
+
+/* =========================================================
+   MAIN
+========================================================= */
+
+main {
+  position: relative;
+
+  z-index: 1;
+}
+
+/* =========================================================
+   MAIN GRID
+========================================================= */
+
+.main-grid {
+  width: min(
+    1468px,
+    calc(100% - 70px)
+  );
+
+  margin: 22px auto 20px;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1.25fr)
+    minmax(500px, 1fr);
+
+  gap: 20px;
+
+  align-items: stretch;
+}
+
+/* =========================================================
+   MAP CARD
+========================================================= */
+
+.map-card {
+  position: relative;
+
+  min-height: 685px;
+
+  overflow: hidden;
+
+  padding: 26px 25px 20px;
+
+  border:
+    1px solid rgba(79, 91, 62, 0.18);
+
+  border-radius: 12px;
+
+  background:
+    radial-gradient(
+      circle at 50% 48%,
+      rgba(255, 255, 255, 0.97) 0%,
+      rgba(250, 246, 229, 0.94) 45%,
+      rgba(239, 231, 207, 0.97) 100%
+    );
+
+  box-shadow: var(--shadow);
+}
+
+/* =========================================================
+   MAP CARD PADDY DECORATION
+========================================================= */
+
+.map-card::before {
+  content: "";
+
+  position: absolute;
+
+  left: -55px;
+  bottom: -30px;
+
+  width: 340px;
+  height: 410px;
+
+  pointer-events: none;
+
+  opacity: 0.27;
+
+  z-index: 0;
+
+  transform: rotate(-8deg);
+
+  background:
+    radial-gradient(
+      ellipse 8px 3px at 65% 10%,
+      rgba(180, 151, 77, 0.55) 0 60%,
+      transparent 64%
+    ),
+    radial-gradient(
+      ellipse 8px 3px at 55% 18%,
+      rgba(180, 151, 77, 0.50) 0 60%,
+      transparent 64%
+    ),
+    radial-gradient(
+      ellipse 8px 3px at 70% 27%,
+      rgba(180, 151, 77, 0.46) 0 60%,
+      transparent 64%
+    ),
+    radial-gradient(
+      ellipse 8px 3px at 48% 36%,
+      rgba(180, 151, 77, 0.42) 0 60%,
+      transparent 64%
+    ),
+    radial-gradient(
+      ellipse 8px 3px at 61% 45%,
+      rgba(180, 151, 77, 0.38) 0 60%,
+      transparent 64%
+    ),
+    radial-gradient(
+      ellipse 8px 3px at 43% 54%,
+      rgba(180, 151, 77, 0.34) 0 60%,
+      transparent 64%
+    ),
+    linear-gradient(
+      76deg,
+      transparent 47%,
+      rgba(100, 126, 73, 0.38) 48%,
+      rgba(100, 126, 73, 0.38) 49%,
+      transparent 50%
+    );
+}
+
+.map-card::after {
+  content: "";
+
+  position: absolute;
+
+  right: -80px;
+  bottom: -70px;
+
+  width: 330px;
+  height: 430px;
+
+  pointer-events: none;
+
+  opacity: 0.17;
+
+  z-index: 0;
+
+  transform: rotate(10deg);
+
+  background:
+    radial-gradient(
+      ellipse 8px 3px at 35% 12%,
+      rgba(180, 151, 77, 0.52) 0 60%,
+      transparent 64%
+    ),
+    radial-gradient(
+      ellipse 8px 3px at 48% 20%,
+      rgba(180, 151, 77, 0.47) 0 60%,
+      transparent 64%
+    ),
+    radial-gradient(
+      ellipse 8px 3px at 58% 29%,
+      rgba(180, 151, 77, 0.42) 0 60%,
+      transparent 64%
+    ),
+    radial-gradient(
+      ellipse 8px 3px at 40% 38%,
+      rgba(180, 151, 77, 0.37) 0 60%,
+      transparent 64%
+    ),
+    radial-gradient(
+      ellipse 8px 3px at 54% 47%,
+      rgba(180, 151, 77, 0.33) 0 60%,
+      transparent 64%
+    ),
+    linear-gradient(
+      103deg,
+      transparent 47%,
+      rgba(100, 126, 73, 0.34) 48%,
+      rgba(100, 126, 73, 0.34) 49%,
+      transparent 50%
+    );
+}
+
+/* =========================================================
+   MAP HEADING
+========================================================= */
+
+.map-heading {
+  position: relative;
+
+  z-index: 3;
+
+  display: flex;
+
+  align-items: flex-end;
+
+  justify-content: space-between;
+
+  gap: 20px;
+
+  padding: 0 10px;
+}
+
+.map-eyebrow {
+  display: block;
+
+  margin-bottom: 6px;
+
+  color: #5f704f;
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+  letter-spacing: 2.5px;
+}
+
+.map-heading h2 {
+  margin: 0;
+
+  color: var(--green-dark);
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(
+    30px,
+    3vw,
+    39px
+  );
+
+  letter-spacing: 1px;
+}
+
+.district-count {
+  color: #6a755e;
+
+  font-size: 12px;
+
+  letter-spacing: 4px;
+
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
+/* =========================================================
+   MAP WRAPPER
+========================================================= */
+
+.map-wrapper {
+  position: relative;
+
+  z-index: 2;
+
+  min-height: 565px;
+
+  margin-top: 2px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+/* =========================================================
+   REAL MAP
+========================================================= */
+
+.real-map-container {
+  position: relative;
+
+  width: 100%;
+
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.chhattisgarh-svg {
+  width: 100%;
+
+  max-width: 620px;
+
+  height: 565px;
+
+  overflow: visible;
+}
+
+/* =========================================================
+   DISTRICT SHAPES
+========================================================= */
+
+.cg-district {
+  fill: var(--district-color);
+
+  fill-opacity: 0.93;
+
+  stroke: #101712;
+
+  stroke-width: 1.35;
+
+  stroke-linejoin: round;
+
+  cursor: pointer;
+
+  outline: none;
+
+  transition:
+    fill-opacity 0.2s ease,
+    filter 0.2s ease,
+    stroke-width 0.2s ease,
+    transform 0.2s ease;
+}
+
+.cg-district:hover,
+.cg-district.hovered {
+  fill-opacity: 1;
+
+  stroke-width: 2.4;
+
+  filter:
+    drop-shadow(
+      0 5px 7px rgba(30, 43, 29, 0.22)
+    );
+}
+
+.cg-district.selected {
+  fill: #d8a928;
+
+  fill-opacity: 1;
+
+  stroke: #123f32;
+
+  stroke-width: 3;
+}
+
+.cg-district:focus-visible {
+  stroke: #123f32;
+
+  stroke-width: 3;
+
+  filter:
+    drop-shadow(
+      0 4px 8px rgba(29, 90, 69, 0.3)
+    );
+}
+
+/* =========================================================
+   DISTRICT LABEL
+========================================================= */
+
+.district-label {
+  fill: #101712;
+
+  font-size: 9px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.2px;
+
+  paint-order: stroke;
+
+  stroke: rgba(255, 255, 255, 0.45);
+
+  stroke-width: 2px;
+
+  pointer-events: none;
+
+  user-select: none;
+}
+
+.selected-label {
+  fill: #123f32;
+
+  font-size: 10px;
+
+  font-weight: 900;
+}
+
+/* =========================================================
+   MAP TOOLTIP
+========================================================= */
+
+.map-tooltip {
+  position: absolute;
+
+  top: 20px;
+  right: 22px;
+
+  z-index: 10;
+
+  min-width: 145px;
+
+  padding: 10px 14px;
+
+  border-radius: 10px;
+
+  background:
+    rgba(18, 63, 50, 0.94);
+
+  color: white;
+
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.16);
+
+  pointer-events: none;
+}
+
+.map-tooltip span {
+  display: block;
+
+  font-size: 13px;
+
+  font-weight: 700;
+}
+
+.map-tooltip small {
+  display: block;
+
+  margin-top: 3px;
+
+  color: rgba(255, 255, 255, 0.72);
+
+  font-size: 10px;
+}
+
+/* =========================================================
+   MAP HINT
+========================================================= */
+
+.map-hint {
+  position: relative;
+
+  z-index: 3;
+
+  width: fit-content;
+
+  max-width: 190px;
+
+  margin: -75px 0 0 0;
+
+  padding: 13px 17px;
+
+  border:
+    1px solid rgba(75, 94, 67, 0.22);
+
+  border-radius: 10px;
+
+  background:
+    rgba(255, 252, 240, 0.86);
+
+  color: #59665b;
+
+  font-size: 12px;
+
+  line-height: 1.55;
+
+  box-shadow:
+    0 7px 20px rgba(58, 65, 46, 0.06);
+}
+
+/* =========================================================
+   AGRICULTURE LINE
+========================================================= */
+
+.agriculture-line {
+  position: relative;
+
+  z-index: 3;
+
+  margin-top: 30px;
+
+  color: #657052;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 14px;
+
+  font-style: italic;
+
+  letter-spacing: 0.3px;
+}
+
+.agriculture-line strong {
+  color: #4d633b;
+
+  font-weight: 500;
+}
+
+/* =========================================================
+   INFO CARD
+========================================================= */
+
+.info-card {
+  min-height: 685px;
+
+  padding: 0 20px 18px;
+
+  overflow: hidden;
+
+  border:
+    1px solid rgba(72, 88, 67, 0.18);
+
+  border-radius: 12px;
+
+  background:
+    rgba(255, 253, 246, 0.92);
+
+  box-shadow: var(--shadow);
+}
+
+/* =========================================================
+   INFO BANNER
+========================================================= */
+
+.info-banner {
+  position: relative;
+
+  min-height: 168px;
+
+  margin: 0 -20px;
+
+  padding: 32px;
+
+  display: flex;
+
+  align-items: center;
+
+  overflow: hidden;
+
+  border-radius:
+    12px 12px 0 0;
+
+  background: #2e4a3d;
+}
+
+/* Banner image */
+.banner-image {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 0;
+}
+
+.banner-image img {
+  width: 100%;
+
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  object-position: center;
+
+  transition:
+    transform 0.6s ease;
+}
+
+.info-banner:hover
+.banner-image img {
+  transform: scale(1.025);
+}
+
+/* Banner dark/cream overlay */
+.info-banner::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(20, 52, 42, 0.90) 0%,
+      rgba(20, 52, 42, 0.74) 38%,
+      rgba(20, 52, 42, 0.38) 68%,
+      rgba(20, 52, 42, 0.08) 100%
+    );
+}
+
+.info-banner-content {
+  position: relative;
+
+  z-index: 2;
+
+  max-width: 60%;
+
+  color: white;
+}
+
+.small-title {
+  display: inline-block;
+
+  margin-bottom: 9px;
+
+  color: rgba(255, 255, 255, 0.88);
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+  letter-spacing: 2.2px;
+}
+
+.info-banner h2 {
+  margin: 0;
+
+  color: white;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(
+    39px,
+    4vw,
+    56px
+  );
+
+  line-height: 0.98;
+}
+
+.district-type {
+  display: inline-block;
+
+  margin-top: 13px;
+
+  padding: 7px 13px;
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 250, 235, 0.95);
+
+  color: #355441;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+/* =========================================================
+   QUICK INFO
+========================================================= */
+
+.quick-info {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 12px;
+
+  margin-top: 20px;
+}
+
+.quick-card {
+  min-height: 76px;
+
+  padding: 12px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+
+  border:
+    1px solid rgba(73, 89, 67, 0.18);
+
+  border-radius: 12px;
+
+  background:
+    rgba(252, 249, 238, 0.8);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.quick-card:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 8px 20px rgba(59, 73, 53, 0.08);
+}
+
+.quick-icon {
+  width: 42px;
+  height: 42px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background:
+    #edf0d9;
+
+  font-size: 20px;
+}
+
+.quick-card h4 {
+  margin: 0 0 5px;
+
+  color: #183e31;
+
+  font-size: 12px;
+}
+
+.quick-card p {
+  margin: 0;
+
+  color: #536159;
+
+  font-size: 11px;
+
+  line-height: 1.45;
+
+  display: -webkit-box;
+
+  -webkit-line-clamp: 2;
+
+  line-clamp: 2;
+
+  -webkit-box-orient: vertical;
+
+  overflow: hidden;
+}
+
+/* =========================================================
+   ABOUT SECTION
+========================================================= */
+
+.about-section {
+  margin-top: 23px;
+}
+
+.section-title {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 9px;
+}
+
+.section-title h3 {
+  margin: 0;
+
+  color: #173f31;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 21px;
+}
+
+.section-title span {
+  width: 31px;
+
+  height: 2px;
+
+  border-radius: 4px;
+
+  background: #78945d;
+}
+
+.about-section > p {
+  margin: 0;
+
+  color: #34473f;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 15px;
+
+  line-height: 1.6;
+}
+
+/* =========================================================
+   DETAILS GRID
+========================================================= */
+
+.details-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, 1fr);
+
+  gap: 12px;
+
+  margin-top: 16px;
+}
+
+.detail-box {
+  min-height: 84px;
+
+  padding: 13px;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 11px;
+
+  border:
+    1px solid rgba(73, 89, 67, 0.15);
+
+  border-radius: 12px;
+
+  background:
+    rgba(250, 247, 236, 0.75);
+
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.detail-box:hover {
+  transform: translateY(-2px);
+
+  border-color:
+    rgba(29, 90, 69, 0.3);
+}
+
+.detail-box > span {
+  width: 37px;
+  height: 37px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background:
+    #edf0d9;
+
+  font-size: 17px;
+}
+
+.detail-box h4 {
+  margin: 1px 0 6px;
+
+  color: #173f31;
+
+  font-size: 12px;
+}
+
+.detail-box p {
+  margin: 0;
+
+  color: #56635c;
+
+  font-size: 11px;
+
+  line-height: 1.5;
+}
+
+/* =========================================================
+   FULL DETAILS BUTTON
+========================================================= */
+
+.full-details-btn {
+  width: min(
+    320px,
+    100%
+  );
+
+  min-height: 45px;
+
+  margin: 17px auto 0;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 18px;
+
+  border:
+    2px solid #173f31;
+
+  border-radius: 999px;
+
+  background:
+    #1c6049;
+
+  color: white;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  box-shadow:
+    0 5px 0 rgba(193, 163, 91, 0.45);
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.full-details-btn:hover {
+  background: #144c3a;
+
+  transform: translateY(-2px);
+}
+
+.full-details-btn:active {
+  transform: translateY(1px);
+}
+
+/* =========================================================
+   FOOD SECTION
+========================================================= */
+
+.food-section {
+  position: relative;
+
+  z-index: 2;
+
+  width: 100%;
+
+  padding:
+    24px
+    max(35px, calc((100% - 1468px) / 2))
+    38px;
+
+  display: grid;
+
+  grid-template-columns:
+    330px
+    minmax(0, 1fr);
+
+  gap: 28px;
+
+  border-top:
+    1px solid rgba(75, 88, 65, 0.12);
+
+  border-bottom:
+    1px solid rgba(75, 88, 65, 0.12);
+
+  background:
+    linear-gradient(
+      90deg,
+      #f1ead7,
+      #faf7eb 45%,
+      #f2ead5
+    );
+
+  overflow: hidden;
+}
+
+/* Food paddy background */
+.food-section::before {
+  content: "";
+
+  position: absolute;
+
+  left: -20px;
+  bottom: -100px;
+
+  width: 270px;
+  height: 320px;
+
+  pointer-events: none;
+
+  opacity: 0.18;
+
+  background:
+    radial-gradient(
+      ellipse 7px 3px at 55% 20%,
+      #a78b4e 0 60%,
+      transparent 63%
+    ),
+    radial-gradient(
+      ellipse 7px 3px at 65% 29%,
+      #a78b4e 0 60%,
+      transparent 63%
+    ),
+    radial-gradient(
+      ellipse 7px 3px at 47% 38%,
+      #a78b4e 0 60%,
+      transparent 63%
+    ),
+    linear-gradient(
+      75deg,
+      transparent 47%,
+      #75885d 48%,
+      #75885d 49%,
+      transparent 50%
+    );
+}
+
+/* =========================================================
+   FOOD INTRO
+========================================================= */
+
+.food-intro {
+  position: relative;
+
+  z-index: 2;
+
+  align-self: center;
+}
+
+.food-intro > span {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #738052;
+
+  font-size: 10px;
+
+  font-weight: 800;
+
+  letter-spacing: 2.7px;
+}
+
+.food-intro h2 {
+  margin: 0;
+
+  color: #153f32;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 27px;
+
+  line-height: 1.05;
+}
+
+.food-intro p {
+  max-width: 280px;
+
+  margin: 10px 0 16px;
+
+  color: #536158;
+
+  font-size: 12px;
+
+  line-height: 1.5;
+}
+
+/* =========================================================
+   FOOD BUTTON
+========================================================= */
+
+.explore-food-btn {
+  padding: 10px 18px;
+
+  border:
+    1px solid #446b59;
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 252, 241, 0.8);
+
+  color: #173f31;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.explore-food-btn:hover {
+  background: #e7efd9;
+
+  transform: translateY(-2px);
+}
+
+/* =========================================================
+   FOOD GRID
+========================================================= */
+
+.food-grid {
+  position: relative;
+
+  z-index: 2;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      6,
+      minmax(120px, 1fr)
+    );
+
+  gap: 12px;
+
+  overflow-x: auto;
+
+  scrollbar-width: thin;
+
+  padding-bottom: 5px;
+}
+
+/* =========================================================
+   FOOD CARD
+========================================================= */
+
+.food-card {
+  min-width: 120px;
+
+  overflow: hidden;
+
+  border:
+    1px solid rgba(69, 84, 61, 0.18);
+
+  border-radius: 11px;
+
+  background:
+    rgba(255, 253, 246, 0.88);
+
+  box-shadow:
+    0 5px 18px rgba(56, 66, 48, 0.06);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.food-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 13px 25px rgba(56, 66, 48, 0.12);
+}
+
+.food-image {
+  width: 100%;
+
+  height: 91px;
+
+  overflow: hidden;
+
+  background: #e9dfc4;
+}
+
+.food-image img {
+  width: 100%;
+
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.45s ease;
+}
+
+.food-card:hover
+.food-image img {
+  transform: scale(1.06);
+}
+
+.food-content {
+  padding: 8px 10px 10px;
+}
+
+.food-content h3 {
+  margin: 0 0 4px;
+
+  color: #173f31;
+
+  font-size: 12px;
+}
+
+.food-content h3::before {
+  content: "✦ ";
+
+  color: #78945d;
+
+  font-size: 9px;
+}
+
+.food-content p {
+  margin: 0;
+
+  color: #667068;
+
+  font-size: 10px;
+
+  line-height: 1.35;
+}
+
+/* =========================================================
+   LOADING
+========================================================= */
+
+.map-loading {
+  min-height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  color: var(--green-dark);
+
+  font-size: 17px;
+
+  font-weight: 600;
+
+  background:
+    radial-gradient(
+      circle at center,
+      #fffdf4 0%,
+      #f3ecd9 100%
+    );
+}
+
+/* =========================================================
+   ERROR
+========================================================= */
+
+.map-error {
+  min-height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 30px;
+
+  text-align: center;
+
+  color: #6e382c;
+
+  background:
+    #f7eee5;
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.footer {
+  position: relative;
+
+  z-index: 2;
+
+  min-height: 62px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 15px 25px;
+
+  border-top:
+    1px solid rgba(75, 88, 65, 0.14);
+
+  background:
+    #173f31;
+
+  color:
+    rgba(255, 255, 255, 0.75);
+
+  text-align: center;
+
+  font-size: 11px;
+
+  letter-spacing: 0.3px;
+}
+
+/* =========================================================
+   RESPONSIVE — 1250px
+========================================================= */
+
+@media (max-width: 1250px) {
+  .header {
+    padding: 0 25px;
+    gap: 15px;
+  }
+
+  .navbar {
+    gap: 0;
+  }
+
+  .nav-link {
+    padding: 0 9px;
+  }
+
+  .nav-link::after {
+    left: 9px;
+    right: 9px;
+  }
+
+  .search-box {
+    width: 190px;
+  }
+
+  .main-grid {
+    grid-template-columns:
+      minmax(0, 1.1fr)
+      minmax(440px, 1fr);
+  }
+
+  .food-section {
+    grid-template-columns:
+      270px
+      minmax(0, 1fr);
+  }
+}
+
+/* =========================================================
+   RESPONSIVE — 1050px
+========================================================= */
+
+@media (max-width: 1050px) {
+  .header {
+    flex-wrap: wrap;
+
+    padding:
+      14px 25px;
+  }
+
+  .navbar {
+    order: 3;
+
+    width: 100%;
+
+    overflow-x: auto;
+
+    justify-content: flex-start;
+
+    border-top:
+      1px solid rgba(70, 82, 55, 0.1);
+  }
+
+  .nav-link {
+    min-width: max-content;
+
+    min-height: 42px;
+  }
+
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .map-card,
+  .info-card {
+    min-height: auto;
+  }
+
+  .map-wrapper {
+    min-height: 610px;
+  }
+
+  .chhattisgarh-svg {
+    height: 610px;
+  }
+
+  .food-section {
+    grid-template-columns: 1fr;
+  }
+
+  .food-intro {
+    max-width: 500px;
+  }
+
+  .food-grid {
+    grid-template-columns:
+      repeat(
+        6,
+        minmax(145px, 1fr)
+      );
+  }
+}
+
+/* =========================================================
+   RESPONSIVE — 700px
+========================================================= */
+
+@media (max-width: 700px) {
+  .header {
+    padding: 13px 16px;
+  }
+
+  .logo-icon {
+    width: 43px;
+    height: 43px;
+
+    font-size: 27px;
+  }
+
+  .logo-area h1 {
+    font-size: 25px;
+  }
+
+  .logo-area p {
+    font-size: 10px;
+  }
+
+  .search-box {
+    width: 100%;
+  }
+
+  .navbar {
+    gap: 2px;
+  }
+
+  .nav-link {
+    padding: 0 9px;
+
+    font-size: 12px;
+  }
+
+  .nav-icon {
+    font-size: 14px;
+  }
+
+  .main-grid {
+    width: calc(100% - 24px);
+
+    margin-top: 12px;
+
+    gap: 14px;
+  }
+
+  .map-card {
+    padding:
+      20px 14px 18px;
+  }
+
+  .map-heading {
+    padding: 0 4px;
+  }
+
+  .map-heading h2 {
+    font-size: 28px;
+  }
+
+  .district-count {
+    font-size: 9px;
+
+    letter-spacing: 2px;
+  }
+
+  .map-wrapper {
+    min-height: 470px;
+  }
+
+  .chhattisgarh-svg {
+    height: 470px;
+  }
+
+  .map-hint {
+    margin-top: -45px;
+
+    font-size: 11px;
+  }
+
+  .district-label {
+    font-size: 7px;
+  }
+
+  .info-card {
+    padding:
+      0 14px 16px;
+  }
+
+  .info-banner {
+    min-height: 155px;
+
+    margin: 0 -14px;
+
+    padding: 24px 20px;
+  }
+
+  .info-banner-content {
+    max-width: 75%;
+  }
+
+  .info-banner h2 {
+    font-size: 38px;
+  }
+
+  .quick-info {
+    grid-template-columns: 1fr;
+  }
+
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .food-section {
+    padding:
+      28px 14px;
+  }
+
+  .food-grid {
+    grid-template-columns:
+      repeat(
+        6,
+        145px
+      );
+  }
+
+  .footer {
+    padding: 20px 15px;
+  }
+}
+
+/* =========================================================
+   RESPONSIVE — 450px
+========================================================= */
+
+@media (max-width: 450px) {
+  .logo-area p {
+    display: none;
+  }
+
+  .navbar {
+    scrollbar-width: none;
+  }
+
+  .navbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 0 7px;
+
+    font-size: 11px;
+  }
+
+  .map-wrapper {
+    min-height: 420px;
+  }
+
+  .chhattisgarh-svg {
+    height: 420px;
+  }
+
+  .map-tooltip {
+    top: 8px;
+    right: 8px;
+  }
+
+  .agriculture-line {
+    font-size: 12px;
+  }
+
+  .info-banner {
+    min-height: 140px;
+  }
+
+  .info-banner h2 {
+    font-size: 32px;
+  }
+
+  .small-title {
+    font-size: 9px;
+  }
+
+  .district-type {
+    font-size: 10px;
+  }
+}
