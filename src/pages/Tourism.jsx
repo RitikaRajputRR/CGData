@@ -9,10 +9,10 @@ import "./Tourism.css";
 const TOURISM_BANNER = "/images/banner.png";
 
 const API_URL =
-  "http://192.168.1.198:5000/api/districts";
+  "https://cgdata-backend.onrender.com/api/districts";
 
 const BACKEND_URL =
-  "http://192.168.1.198:5000";
+  "https://cgdata-backend.onrender.com";
 
 /* ================================================= */
 /* ================= IMAGE HELPER ================== */

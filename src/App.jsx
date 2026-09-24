@@ -17,7 +17,7 @@ import Agriculture from "./pages/Agriculture";
 import Tourism from "./pages/Tourism";
 import About from "./pages/About";
 
-const API_URL = "http://192.168.1.198:5000/api/districts";
+const API_URL = "https://cgdata-backend.onrender.com/api/districts";
 
 /* ================================================= */
 /* ================= SITE ASSETS ==================== */

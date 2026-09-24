@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 
 import "./DistrictDetails.css";
 
-const API_URL = "http://192.168.1.198:5000/api/districts";
+const API_URL = "https://cgdata-backend.onrender.com/api/districts";
 
 function DistrictDetails() {
   const { districtName } = useParams();
@@ -77,7 +77,7 @@ function DistrictDetails() {
       return imagePath;
     }
 
-    return `http://192.168.1.198:5000${imagePath}`;
+    return `https://cgdata-backend.onrender.com${imagePath}`;
   };
 
   // =========================================================

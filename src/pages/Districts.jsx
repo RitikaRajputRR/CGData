@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./Districts.css";
 
-const API_URL = "http://192.168.1.198:5000/api/districts";
+const API_URL = "https://cgdata-backend.onrender.com/api/districts";
 
 // Common Chhattisgarh banner
 const DISTRICT_BANNER = "/images/banner.png";
