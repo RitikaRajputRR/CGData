@@ -4,6 +4,8 @@ const cors = require("cors");
 require("dotenv").config();
 
 const districtRoutes = require("./routes/districtRoutes");
+const chatRoutes = require("./routes/chatRoutes");
+const tourismRoutes = require("./routes/tourismRoutes");
 
 const app = express();
 
@@ -23,6 +25,12 @@ app.use("/images", express.static("public/images"));
 
 // District API
 app.use("/api/districts", districtRoutes);
+
+// AI Chatbot API
+app.use("/api/chat", chatRoutes);
+
+// Tourism API
+app.use("/api/tourism", tourismRoutes);
 
 // Root route
 app.get("/", (req, res) => {
@@ -45,6 +53,9 @@ const startServer = async () => {
 
     app.listen(PORT, "0.0.0.0", () => {
       console.log(`Server running on port ${PORT}`);
+      console.log(`District API: http://localhost:${PORT}/api/districts`);
+      console.log(`Tourism API: http://localhost:${PORT}/api/tourism`);
+      console.log(`Chat API: http://localhost:${PORT}/api/chat`);
     });
   } catch (error) {
     console.error("MongoDB connection error:");

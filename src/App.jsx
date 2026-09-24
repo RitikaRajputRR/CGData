@@ -16,7 +16,7 @@ import Map from "./pages/Map";
 import Agriculture from "./pages/Agriculture";
 import Tourism from "./pages/Tourism";
 import About from "./pages/About";
-
+import Chatbot from "./components/Chatbot";
 const API_URL = "https://cgdata-backend.onrender.com/api/districts";
 
 /* ================================================= */
@@ -1422,46 +1422,58 @@ function HomePage() {
 /* ================= MAIN APP ====================== */
 /* ================================================= */
 
+/* ================================================= */
+/* ================= MAIN APP ====================== */
+/* ================================================= */
+
 function App() {
   return (
-    <Routes>
+    <>
+      <Routes>
 
-      <Route
-        path="/"
-        element={<HomePage />}
-      />
+        <Route
+          path="/"
+          element={<HomePage />}
+        />
 
-      <Route
-        path="/districts"
-        element={<Districts />}
-      />
+        <Route
+          path="/districts"
+          element={<Districts />}
+        />
 
-      <Route
-        path="/map"
-        element={<Map />}
-      />
+        <Route
+          path="/map"
+          element={<Map />}
+        />
 
-      <Route
-        path="/agriculture"
-        element={<Agriculture />}
-      />
+        <Route
+          path="/agriculture"
+          element={<Agriculture />}
+        />
 
-      <Route
-        path="/tourism"
-        element={<Tourism />}
-      />
+        <Route
+          path="/tourism"
+          element={<Tourism />}
+        />
 
-      <Route
-        path="/about"
-        element={<About />}
-      />
+        <Route
+          path="/about"
+          element={<About />}
+        />
 
-      <Route
-        path="/district/:districtName"
-        element={<DistrictDetails />}
-      />
+        <Route
+          path="/district/:districtName"
+          element={<DistrictDetails />}
+        />
 
-    </Routes>
+      </Routes>
+
+      {/* ================================================= */}
+      {/* ================= AI CHATBOT ==================== */}
+      {/* ================================================= */}
+
+      <Chatbot />
+    </>
   );
 }
 
