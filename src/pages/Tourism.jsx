@@ -6,7 +6,7 @@ import "./Tourism.css";
    API
 ========================================================= */
 
-const API_URL = "http://localhost:5000/api/tourism";
+const API_URL = "https://cgdata-backend.onrender.com/api/tourism";
 
 // Production:
 // const API_URL = "https://cgdata-backend.onrender.com/api/tourism";

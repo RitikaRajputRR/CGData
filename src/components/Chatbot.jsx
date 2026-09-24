@@ -3,7 +3,7 @@ import "./Chatbot.css";
 import ReactMarkdown from "react-markdown";
 
 
-const API_URL = "http://localhost:5000/api/chat";
+const API_URL = "https://cgdata-backend.onrender.com/api/chat";
 
 const languages = [
   { value: "Hinglish", label: "Hinglish" },
