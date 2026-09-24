@@ -52,14 +52,12 @@ const startServer = async () => {
     console.log("MongoDB Atlas connected successfully");
 
     app.listen(PORT, "0.0.0.0", () => {
-      console.log(`Server running on port ${PORT}`);
-      console.log(`District API: http://localhost:${PORT}/api/districts`);
-      console.log(`Tourism API: http://localhost:${PORT}/api/tourism`);
-      console.log(`Chat API: http://localhost:${PORT}/api/chat`);
+      console.log(`CG DATA Backend running on port ${PORT}`);
+      console.log(`Environment PORT: ${PORT}`);
     });
   } catch (error) {
-    console.error("MongoDB connection error:");
-    console.error(error.message);
+    console.error("Server startup error:");
+    console.error(error);
 
     process.exit(1);
   }
